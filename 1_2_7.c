@@ -11,8 +11,6 @@
 
 #define DEBUG
 
-
-
 typedef unsigned char    UINT8;
 typedef unsigned int     UINT32;
 
