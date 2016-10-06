@@ -216,8 +216,7 @@ void main()
 
     // Scan each DNA.
     for(i=0;i<NUMBER_OF_DNAS;i++){
-        for(j=0;j<=(SIZE_OF_DNA-KMER_LENGTH);j++){
-            
+        for(j=0;j<=(SIZE_OF_DNA-KMER_LENGTH);j++){   
             key = gen_hash_key(DNA_SRC+j+i*SIZE_OF_DNA,KMER_LENGTH);
             //Add new key.
             if(0 == pKD_MOTIF[key])
